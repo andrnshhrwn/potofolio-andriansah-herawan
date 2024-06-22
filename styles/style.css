@@ -69,7 +69,7 @@ body{
     width: 80%;
     display: flex;
     justify-content: center;
-    gap: 230px;
+    gap: 250px;
     align-items: center;
 }
 .nav h3{
@@ -186,7 +186,7 @@ body{
     text-transform: capitalize;
     color: aliceblue;
 }
-.describe h2 span, .contact-me-describe h2 span, .about-me-footer h2 span{
+span{
     color: #FACC15;
 }
 
@@ -194,6 +194,145 @@ body{
 .content-service{
     height: 750px;
     background-color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    width: 80%;
+    height: 560px;
+}
+.content-service .information-skills{
+    width: 100%;
+    height: 230px;
+    color: #97a8c1;
+}
+.information-skills .box1-skills h2{
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: aliceblue;
+    width: 200px;
+    height: 64px;
+}
+.box1-skills p{
+    width: 400px;
+    height: 80px;
+}
+.skills{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.content-service .box2-skills, .content-service .box3-skills, .content-service .box4-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 340px;
+    height: 340px;
+    background-color: #020617;
+    border-radius: 10px;
+}
+.content-service h3{
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content-service p{
+    color: #97a8c1;
+}
+
+/*my-portfolio*/
+.content-portfolio{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    background-color: #020617;
+}
+.content-portfolio .portfolio{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-information-portfolio{
+    color: #97a8c1;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-information-portfolio h2, .box-information-portfolio p{
+    width: 400px;
+    height: 80px;
+}
+.box-information-portfolio h2{
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-weight: bold;
+    color: aliceblue;
+}
+.box-portfolio div{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 3px solid #FACC15;
+    text-align: center;
+    border-radius: 10px;
+}
+.box-portfolio{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 25% 25%;
+    gap: 30px;
+}
+.box-portfolio-1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/*experiences*/
+.content-experiences{
+    height: 700px;
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experiences{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.information-experiences{
+    color: #97a8c1;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.information-experiences h2{
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.box-experiences{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-experiences div{
+    width: 300px;
+    height: 300px;
+    background-color: #020617;
+    border-radius: 10px;
 }
 
 /* footer style */
